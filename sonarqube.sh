@@ -48,6 +48,6 @@ echo
 #Show endpoint
 echo "SonarQube installed"
 echo
-echo "You should now be able to access SonarQube at: http://$(curl -s ifconfig.co):9000"
+echo "You should now be able to access SonarQube at: http://$(hostname -I):9000"
 echo
 echo "Your login is : admin and your password is :admin"
