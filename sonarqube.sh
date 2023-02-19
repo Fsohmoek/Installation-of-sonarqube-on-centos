@@ -41,8 +41,8 @@ echo
 echo
 echo
 #Step 5: Open port 9000
- sudo firewall-cmd --permanent --add-port=9000/tcp 
- sudo firewall-cmd --reload
+#sudo firewall-cmd --permanent --add-port=9000/tcp 
+#sudo firewall-cmd --reload
  echo
  echo
 #Show endpoint
