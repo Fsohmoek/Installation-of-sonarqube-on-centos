@@ -46,8 +46,8 @@ echo
  echo
  echo
 #Show endpoint
-echo "Jenkins installed"
+echo "SonarQube installed"
 echo
-echo "You should now be able to access SonarQube at: http://$(curl -s ifconfig.co):8080"
+echo "You should now be able to access SonarQube at: http://$(curl -s ifconfig.co):9000"
 echo
 echo "Your login is : admin and your password is :admin"
